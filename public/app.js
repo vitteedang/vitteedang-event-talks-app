@@ -25,14 +25,17 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         const filtered = fullSchedule.map(item => {
-            // If it's not a talk (transition or break), we keep it visible as requested
+            // If it's not a talk (transition or break), we keep it visible
             if (item.type !== 'talk') {
                 return { ...item, visible: true };
             }
 
-            // Check if any category matches the search term
-            const matches = item.categories.some(cat => cat.toLowerCase().includes(searchTerm));
-            return { ...item, visible: matches };
+            // Check if title, speakers, or categories match the search term
+            const titleMatch = item.title.toLowerCase().includes(searchTerm);
+            const speakerMatch = item.speakers.some(speaker => speaker.toLowerCase().includes(searchTerm));
+            const categoryMatch = item.categories.some(cat => cat.toLowerCase().includes(searchTerm));
+
+            return { ...item, visible: titleMatch || speakerMatch || categoryMatch };
         });
 
         renderSchedule(filtered);
