@@ -1,0 +1,89 @@
+[
+  {
+    "id": 1,
+    "type": "talk",
+    "title": "Scaling Node.js Microservices",
+    "speakers": ["Elena Rodriguez"],
+    "categories": ["Backend", "Node.js", "Architecture"],
+    "startTime": "10:00 AM",
+    "endTime": "11:00 AM",
+    "description": "Learn how to build and scale robust microservices using Node.js and modern architectural patterns."
+  },
+  {
+    "type": "transition",
+    "startTime": "11:00 AM",
+    "endTime": "11:10 AM"
+  },
+  {
+    "id": 2,
+    "type": "talk",
+    "title": "Mastering CSS Grid and Flexbox",
+    "speakers": ["Marcus Chen", "Sarah Jenkins"],
+    "categories": ["Frontend", "CSS", "UI/UX"],
+    "startTime": "11:10 AM",
+    "endTime": "12:10 PM",
+    "description": "A deep dive into creating complex, responsive layouts with modern CSS layout modules."
+  },
+  {
+    "type": "transition",
+    "startTime": "12:10 PM",
+    "endTime": "12:20 PM"
+  },
+  {
+    "id": 3,
+    "type": "talk",
+    "title": "State Management with Signals",
+    "speakers": ["Alex Rivera"],
+    "categories": ["Frontend", "JavaScript", "Performance"],
+    "startTime": "12:20 PM",
+    "endTime": "1:20 PM",
+    "description": "Exploring the reactive power of Signals and how they are changing the state management landscape in modern frameworks."
+  },
+  {
+    "type": "break",
+    "title": "Lunch Break",
+    "startTime": "1:20 PM",
+    "endTime": "2:20 PM",
+    "description": "Enjoy lunch and networking with fellow attendees."
+  },
+  {
+    "id": 4,
+    "type": "talk",
+    "title": "Pragmatic AI for Developers",
+    "speakers": ["Dr. Li Wei"],
+    "categories": ["AI", "Tools", "Productivity"],
+    "startTime": "2:20 PM",
+    "endTime": "3:20 PM",
+    "description": "Practical ways to integrate AI capabilities into your everyday development workflow without a PhD in Machine Learning."
+  },
+  {
+    "type": "transition",
+    "startTime": "3:20 PM",
+    "endTime": "3:30 PM"
+  },
+  {
+    "id": 5,
+    "type": "talk",
+    "title": "Securing the Modern Supply Chain",
+    "speakers": ["Jameson Black"],
+    "categories": ["Security", "DevOps"],
+    "startTime": "3:30 PM",
+    "endTime": "4:30 PM",
+    "description": "Understanding the risks in your dependency tree and how to protect your code from supply chain attacks."
+  },
+  {
+    "type": "transition",
+    "startTime": "4:30 PM",
+    "endTime": "4:40 PM"
+  },
+  {
+    "id": 6,
+    "type": "talk",
+    "title": "The Edge is the New Cloud",
+    "speakers": ["Sonia Gupta", "Tom Baker"],
+    "categories": ["Cloud", "Edge Computing", "Performance"],
+    "startTime": "4:40 PM",
+    "endTime": "5:40 PM",
+    "description": "Why moving computation closer to the user is the next major shift in distributed systems architecture."
+  }
+]
